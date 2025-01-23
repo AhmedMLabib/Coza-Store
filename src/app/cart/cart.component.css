@@ -1,0 +1,51 @@
+.cart {
+  border: 1px solid #aaa;
+  padding: 3px;
+  text-align: center;
+  height: fit-content;
+}
+.cart thead {
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+}
+
+.cart tr td {
+  padding: 20px 5px;
+  height: 100px;
+}
+.cart tr td img {
+  width: 100px;
+  height: 100px;
+}
+
+.cart tr td button {
+  background-color: #ab1515;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.info {
+  border: 1px solid #aaa;
+  height: fit-content;
+  padding: 0 !important;
+  text-align: center;
+}
+.info .order {
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+}
+
+.info .order span {
+  margin-right: 10px;
+}
+
+button.buy {
+  background-color: #717fe0;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
